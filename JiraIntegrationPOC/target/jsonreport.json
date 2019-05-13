@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Test3",
+        "description": "",
+        "id": "sample;test3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 285543399,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "first test",
+            "match": {
+              "location": "sample.firstTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54490,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "second test",
+            "match": {
+              "location": "sample.secondTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104353,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "third test",
+            "match": {
+              "location": "sample.thirdTest()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Test2",
+        "description": "",
+        "id": "sample;test2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94073,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "first test",
+            "match": {
+              "location": "sample.firstTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45237,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "second test",
+            "match": {
+              "location": "sample.secondTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40097,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "third test",
+            "match": {
+              "location": "sample.thirdTest()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@ignore"
+          }
+        ]
+      }
+    ],
+    "name": "Sample",
+    "description": "As a user try to print some text",
+    "id": "sample",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/sample.feature"
+  }
+]
